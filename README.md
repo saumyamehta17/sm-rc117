@@ -1,4 +1,5 @@
 
+
 Railscast sm-rc117
 ==================
 
@@ -27,6 +28,5 @@ Rails server
 ```
 rails s
 ```
-
 
 
