@@ -57,6 +57,7 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.0)
     libv8 (3.11.8.17)
+    liquid (2.5.1)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -98,6 +99,9 @@ GEM
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
+    simple_form (2.1.0)
+      actionpack (~> 3.0)
+      activemodel (~> 3.0)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -127,11 +131,13 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   debugger
   jquery-rails
+  liquid
   mysql2
   pg
   quiet_assets
   rails (= 3.2.13)
   sass-rails (~> 3.2.3)
+  simple_form
   therubyracer
   thin
   uglifier (>= 1.0.3)

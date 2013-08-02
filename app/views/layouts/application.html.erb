@@ -5,9 +5,14 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  
 </head>
 <body>
-
+  <div style="margin-left:80%;">
+  <%= link_to "About" ,  page_path("about") %>
+  <%= link_to "privacy", privacy_path %>
+  <%= link_to "license", license_path %>
+  </div>
 <%= yield %>
 
 </body>
